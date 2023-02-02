@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>99 Bottles of... what?</title>
+
+</head>
+<body>
+  <audio autoplay>
+    <source src="/99_bottles_of_beer.ogg" type="audio/ogg">
+  </audio>
+
+ <h3>🎷 🎺</h3>
+  <h1><%= bottles %> bottles of beer on the wall</h1>
+  <h3>🎸 🎻</h3>
+
+  <a href="/?number=<%= bottles -1 %>" class="play-the-game"> 🎹 Take one down! 🎹</a>
+  <p></p>
+  <a href="/" class="play-the-game">Restart the game</a>
+
+  <h4>Song credits: <a href="https://commons.wikimedia.org/wiki/User:Theleekycauldron">Theleekycauldron</a></h4>
+</body>
+
+</body>
+
+<style>
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+    background: rgb(120, 170, 120);
+    color: black
+  }
+  a {
+    color: black;
+    text-decoration: none
+  }
+  .play-the-game {
+  display: block;
+  width: 150px;
+  height: 25px;
+  background: #4e9caf;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  line-height: 25px;
+}
+</style>
+</html>
