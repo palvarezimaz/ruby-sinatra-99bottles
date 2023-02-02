@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto;
+  background: rgb(120, 170, 120);
+  color: black
+}
+a {
+  color: black;
+  text-decoration: none
+}
+.play-the-game {
+display: block;
+width: 150px;
+height: 25px;
+background: #4e9caf;
+padding: 10px;
+text-align: center;
+border-radius: 5px;
+color: black;
+font-weight: bold;
+line-height: 25px;
+}
